@@ -1,0 +1,591 @@
+{
+  "siteSettings": [
+    {
+      "id": "main",
+      "name": "PERZON GALLERY",
+      "phoneDisplay": "+994 51 777 41 54",
+      "whatsappNumber": "994517774154",
+      "instagram": "perzon_gallery",
+      "instagramUrl": "https://instagram.com/perzon_gallery",
+      "tiktokUrl": "https://tiktok.com/@perzon_gallery",
+      "followers": "233K+",
+      "followersCount": 233,
+      "posts": "409+",
+      "workingHours": "10:00 - 19:00"
+    }
+  ],
+  "categories": [
+    {
+      "id": "original-arabic",
+      "name": "Orijinal Ereb Etirleri",
+      "sortOrder": 1
+    },
+    {
+      "id": "a-class",
+      "name": "A-Class Etirler",
+      "sortOrder": 2
+    },
+    {
+      "id": "mens",
+      "name": "Kisi Etirleri",
+      "sortOrder": 3
+    },
+    {
+      "id": "womens",
+      "name": "Qadin Etirleri",
+      "sortOrder": 4
+    },
+    {
+      "id": "unisex",
+      "name": "Uniseks",
+      "sortOrder": 5
+    },
+    {
+      "id": "gift-sets",
+      "name": "Hediyye Destleri",
+      "sortOrder": 6
+    }
+  ],
+  "brands": [
+    {
+      "id": "zahran",
+      "name": "Zahran",
+      "origin": "UAE",
+      "tagline": "House of Oud",
+      "flagshipProductId": "oud-al-malaki"
+    },
+    {
+      "id": "roseterra",
+      "name": "Roseterra",
+      "origin": "Italy",
+      "tagline": "Gardens of Taif",
+      "flagshipProductId": "sultana-rose"
+    },
+    {
+      "id": "amber-royale",
+      "name": "Amber Royale",
+      "origin": "France",
+      "tagline": "Parisian warmth",
+      "flagshipProductId": "perle-de-nuit"
+    },
+    {
+      "id": "maison-velours",
+      "name": "Maison Velours",
+      "origin": "France",
+      "tagline": "Velvet compositions",
+      "flagshipProductId": "velours-intense"
+    },
+    {
+      "id": "al-reef",
+      "name": "Al Reef",
+      "origin": "KSA",
+      "tagline": "Desert elegance",
+      "flagshipProductId": "sahara-nights"
+    },
+    {
+      "id": "qamar",
+      "name": "Qamar",
+      "origin": "UAE",
+      "tagline": "Moonlit musk",
+      "flagshipProductId": "santal-mirage"
+    }
+  ],
+  "products": [
+    {
+      "id": "oud-al-malaki",
+      "name": "Oud Al Malaki",
+      "brand": "Zahran",
+      "brandId": "zahran",
+      "category": "original-arabic",
+      "gender": "unisex",
+      "priceAzn": 185,
+      "oldPriceAzn": 205,
+      "tone": "from-[#fce3c5] via-[#f6c191] to-[#eda75f]",
+      "featured": true,
+      "notes": [
+        "Oud",
+        "Amber",
+        "Saffron"
+      ],
+      "description": "Warm Arabic oud profile with amber depth and saffron brightness.",
+      "concentration": "EDP",
+      "origin": "UAE",
+      "stock": 18,
+      "sku": "PG-ZA-OAM-100",
+      "media": [
+        {
+          "type": "image",
+          "url": "/Perzongallery.jpg",
+          "sortOrder": 0
+        },
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 1
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 50,
+          "priceAzn": 185,
+          "oldPriceAzn": 205
+        },
+        {
+          "ml": 100,
+          "priceAzn": 320,
+          "oldPriceAzn": 360
+        }
+      ],
+      "rating": 5,
+      "bestSeller": true,
+      "marquee": true,
+      "marqueeOrder": 1
+    },
+    {
+      "id": "sultana-rose",
+      "name": "Sultana Rose",
+      "brand": "Roseterra",
+      "brandId": "roseterra",
+      "category": "original-arabic",
+      "gender": "women",
+      "priceAzn": 145,
+      "oldPriceAzn": 170,
+      "tone": "from-[#fde0d3] via-[#f8c0ac] to-[#f09a7c]",
+      "featured": true,
+      "notes": [
+        "Taif Rose",
+        "Musk",
+        "Vanilla"
+      ],
+      "description": "Soft Taif rose wrapped with clean musk and creamy vanilla.",
+      "concentration": "EDP",
+      "origin": "Italy",
+      "stock": 24,
+      "sku": "PG-RT-SR-100",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 50,
+          "priceAzn": 145,
+          "oldPriceAzn": 170
+        },
+        {
+          "ml": 100,
+          "priceAzn": 255,
+          "oldPriceAzn": 295
+        }
+      ],
+      "rating": 4.8,
+      "bestSeller": false,
+      "marquee": true,
+      "marqueeOrder": 2
+    },
+    {
+      "id": "amber-noir",
+      "name": "Amber Noir",
+      "brand": "Amber Royale",
+      "brandId": "amber-royale",
+      "category": "original-arabic",
+      "gender": "unisex",
+      "priceAzn": 160,
+      "oldPriceAzn": null,
+      "tone": "from-[#f9e2bf] via-[#efc084] to-[#dfa057]",
+      "featured": true,
+      "notes": [
+        "Amber",
+        "Labdanum",
+        "Benzoin"
+      ],
+      "description": "Dense amber scent with resin notes and a polished evening finish.",
+      "concentration": "Extrait",
+      "origin": "France",
+      "stock": 13,
+      "sku": "PG-AR-AN-75",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 75,
+          "priceAzn": 160
+        }
+      ],
+      "rating": 4.6,
+      "bestSeller": false,
+      "marquee": false,
+      "marqueeOrder": null
+    },
+    {
+      "id": "velours-intense",
+      "name": "Velours Intense",
+      "brand": "Maison Velours",
+      "brandId": "maison-velours",
+      "category": "a-class",
+      "gender": "men",
+      "priceAzn": 65,
+      "oldPriceAzn": 75,
+      "tone": "from-[#dce8f0] via-[#b3cbdd] to-[#7d9fbb]",
+      "featured": true,
+      "notes": [
+        "Bergamot",
+        "Cedar",
+        "Ambroxan"
+      ],
+      "description": "Fresh woody A-Class perfume with crisp citrus and modern amberwood.",
+      "concentration": "EDT",
+      "origin": "France",
+      "stock": 37,
+      "sku": "PG-MV-VI-50",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 50,
+          "priceAzn": 65,
+          "oldPriceAzn": 75
+        },
+        {
+          "ml": 100,
+          "priceAzn": 110,
+          "oldPriceAzn": 130
+        }
+      ],
+      "rating": 4.5,
+      "bestSeller": false,
+      "marquee": true,
+      "marqueeOrder": 7
+    },
+    {
+      "id": "cherie-blush",
+      "name": "Cherie Blush",
+      "brand": "Amber Royale",
+      "brandId": "amber-royale",
+      "category": "a-class",
+      "gender": "women",
+      "priceAzn": 48,
+      "oldPriceAzn": 55,
+      "tone": "from-[#fde4dc] via-[#f6c3bb] to-[#eb9f96]",
+      "featured": false,
+      "notes": [
+        "Peony",
+        "Lychee",
+        "Cashmere"
+      ],
+      "description": "Light floral daily scent with a soft cashmere base.",
+      "concentration": "EDP",
+      "origin": "France",
+      "stock": 42,
+      "sku": "PG-AR-CB-50",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 50,
+          "priceAzn": 48,
+          "oldPriceAzn": 55
+        }
+      ],
+      "rating": 4.1,
+      "bestSeller": false,
+      "marquee": false,
+      "marqueeOrder": null
+    },
+    {
+      "id": "sahara-nights",
+      "name": "Sahara Nights",
+      "brand": "Al Reef",
+      "brandId": "al-reef",
+      "category": "mens",
+      "gender": "men",
+      "priceAzn": 88,
+      "oldPriceAzn": null,
+      "tone": "from-[#fbe7c2] via-[#f0cd8d] to-[#dfb05e]",
+      "featured": false,
+      "notes": [
+        "Incense",
+        "Dates",
+        "Cedarwood"
+      ],
+      "description": "Dry incense and cedar composition with a subtle sweet date accord.",
+      "concentration": "EDP",
+      "origin": "KSA",
+      "stock": 21,
+      "sku": "PG-AL-SN-100",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 100,
+          "priceAzn": 88
+        }
+      ],
+      "rating": 4.4,
+      "bestSeller": false,
+      "marquee": false,
+      "marqueeOrder": null
+    },
+    {
+      "id": "perle-de-nuit",
+      "name": "Perle de Nuit",
+      "brand": "Amber Royale",
+      "brandId": "amber-royale",
+      "category": "womens",
+      "gender": "women",
+      "priceAzn": 125,
+      "oldPriceAzn": 140,
+      "tone": "from-[#ecdff2] via-[#d4bce2] to-[#b391c9]",
+      "featured": true,
+      "notes": [
+        "Tuberose",
+        "Plum",
+        "Vanilla"
+      ],
+      "description": "Elegant night floral with plush tuberose, dark fruit and vanilla.",
+      "concentration": "EDP",
+      "origin": "France",
+      "stock": 19,
+      "sku": "PG-AR-PDN-100",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        },
+        {
+          "type": "image",
+          "url": "/Perzongallery.jpg",
+          "sortOrder": 1
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 50,
+          "priceAzn": 125,
+          "oldPriceAzn": 140
+        },
+        {
+          "ml": 100,
+          "priceAzn": 215,
+          "oldPriceAzn": 245
+        }
+      ],
+      "rating": 5,
+      "bestSeller": true,
+      "marquee": true,
+      "marqueeOrder": 4
+    },
+    {
+      "id": "taif-dream",
+      "name": "Taif Dream",
+      "brand": "Roseterra",
+      "brandId": "roseterra",
+      "category": "womens",
+      "gender": "women",
+      "priceAzn": 105,
+      "oldPriceAzn": null,
+      "tone": "from-[#fadfdb] via-[#f2b6b3] to-[#df8b90]",
+      "featured": false,
+      "notes": [
+        "Rose",
+        "Raspberry",
+        "Oud"
+      ],
+      "description": "Rose-forward feminine scent balanced with raspberry sparkle and soft oud.",
+      "concentration": "EDP",
+      "origin": "Italy",
+      "stock": 16,
+      "sku": "PG-RT-TD-100",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1619994403073-2cec844b8e63?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 100,
+          "priceAzn": 105
+        }
+      ],
+      "rating": 4.7,
+      "bestSeller": false,
+      "marquee": true,
+      "marqueeOrder": 8
+    },
+    {
+      "id": "santal-mirage",
+      "name": "Santal Mirage",
+      "brand": "Zahran",
+      "brandId": "zahran",
+      "category": "mens",
+      "gender": "unisex",
+      "priceAzn": 115,
+      "oldPriceAzn": null,
+      "tone": "from-[#f4e6d4] via-[#e2c9a8] to-[#c3a175]",
+      "featured": true,
+      "notes": [
+        "Sandalwood",
+        "Papyrus",
+        "Musk"
+      ],
+      "description": "Creamy sandalwood and airy musk with a clean niche-style trail.",
+      "concentration": "EDP",
+      "origin": "UAE",
+      "stock": 28,
+      "sku": "PG-QM-SM-100",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpscPHD6ICx96F8BzTNlvwymPId-IsYGUqyplv3sQuHg&s=10",
+          "sortOrder": 0
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 50,
+          "priceAzn": 115
+        },
+        {
+          "ml": 100,
+          "priceAzn": 198
+        }
+      ],
+      "rating": 4.6,
+      "bestSeller": false,
+      "marquee": true,
+      "marqueeOrder": 5
+    },
+    {
+      "id": "royal-discovery-set",
+      "name": "Royal Discovery Set",
+      "brand": "Zahran",
+      "brandId": "zahran",
+      "category": "gift-sets",
+      "gender": "unisex",
+      "priceAzn": 240,
+      "oldPriceAzn": 280,
+      "tone": "from-[#fce3c5] via-[#f3bd85] to-[#e29e56]",
+      "featured": true,
+      "notes": [
+        "5 x 10ml Collection",
+        "Oud",
+        "Amber"
+      ],
+      "description": "Five-piece discovery set for gifting or testing the Zahran oud line.",
+      "concentration": "EDP",
+      "origin": "UAE",
+      "stock": 9,
+      "sku": "PG-ZA-RDS-SET",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1600612253971-422e7f7faeb6?auto=format&fit=crop&w=900&q=80",
+          "sortOrder": 0
+        },
+        {
+          "type": "image",
+          "url": "/Perzongallery.jpg",
+          "sortOrder": 1
+        }
+      ],
+      "sizes": [
+        {
+          "ml": 50,
+          "priceAzn": 240,
+          "oldPriceAzn": 280
+        }
+      ],
+      "rating": 4.8,
+      "bestSeller": false,
+      "marquee": true,
+      "marqueeOrder": 6
+    }
+  ],
+  "branches": [
+    {
+      "id": "abseron",
+      "name": "Abseron T/M",
+      "addressLine": "Prestij B, Korpus 9, Magaza 6",
+      "workingHours": "10:00 - 19:00"
+    },
+    {
+      "id": "sederek",
+      "name": "Sederek T/M",
+      "addressLine": "Sira 9, Magaza 46",
+      "workingHours": "10:00 - 19:00"
+    }
+  ],
+  "customers": [],
+  "orders": [
+    {
+      "id": "b24febc8-c07f-4417-8b2d-ad07aae4ce4e",
+      "customerId": null,
+      "status": "submitted",
+      "channel": "whatsapp",
+      "totalAzn": 435,
+      "createdAt": "2026-07-09T20:01:28.651Z",
+      "updatedAt": "2026-07-09T20:01:28.651Z"
+    },
+    {
+      "id": "1404ce7e-1e97-427e-86d1-9253da282b57",
+      "customerId": null,
+      "status": "submitted",
+      "channel": "whatsapp",
+      "totalAzn": 555,
+      "createdAt": "2026-07-09T20:29:04.383Z",
+      "updatedAt": "2026-07-09T20:29:04.383Z"
+    }
+  ],
+  "orderItems": [
+    {
+      "id": "f38fac69-d567-4560-832a-e4bcaac2ee30",
+      "orderId": "b24febc8-c07f-4417-8b2d-ad07aae4ce4e",
+      "productId": "sultana-rose",
+      "productName": "Sultana Rose",
+      "brandName": "Roseterra",
+      "sizeMl": 50,
+      "unitPriceAzn": 145,
+      "qty": 3,
+      "lineTotalAzn": 435
+    },
+    {
+      "id": "25dbe25d-83d7-4eaa-89ab-647653fcbdaf",
+      "orderId": "1404ce7e-1e97-427e-86d1-9253da282b57",
+      "productId": "oud-al-malaki",
+      "productName": "Oud Al Malaki",
+      "brandName": "Zahran",
+      "sizeMl": 50,
+      "unitPriceAzn": 185,
+      "qty": 3,
+      "lineTotalAzn": 555
+    }
+  ],
+  "contactMessages": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

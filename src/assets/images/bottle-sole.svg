@@ -1,0 +1,53 @@
+<svg width="420" height="520" viewBox="0 0 420 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="amber" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#f9b45c"/>
+      <stop offset="0.45" stop-color="#e98a1f"/>
+      <stop offset="0.8" stop-color="#c05f04"/>
+      <stop offset="1" stop-color="#8f4402"/>
+    </radialGradient>
+    <linearGradient id="goldcap" x1="175" y1="42" x2="245" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7dfa4"/>
+      <stop offset="0.4" stop-color="#d9a94e"/>
+      <stop offset="0.7" stop-color="#a97a22"/>
+      <stop offset="1" stop-color="#7c5510"/>
+    </linearGradient>
+    <linearGradient id="collar" x1="185" y1="150" x2="235" y2="188" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e8c274"/>
+      <stop offset="1" stop-color="#9a701e"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.32" cy="0.25" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.55" r="0.5">
+      <stop offset="0" stop-color="#ffb25e" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffb25e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft halo -->
+  <ellipse cx="210" cy="330" rx="200" ry="180" fill="url(#halo)"/>
+
+  <!-- cap -->
+  <rect x="178" y="44" width="64" height="104" rx="16" fill="url(#goldcap)"/>
+  <rect x="186" y="52" width="10" height="88" rx="5" fill="#ffffff" opacity="0.35"/>
+
+  <!-- collar -->
+  <rect x="188" y="146" width="44" height="42" rx="8" fill="url(#collar)"/>
+
+  <!-- round flacon body -->
+  <circle cx="210" cy="340" r="152" fill="url(#amber)"/>
+  <!-- glass rim highlight -->
+  <circle cx="210" cy="340" r="152" fill="none" stroke="#ffd9a0" stroke-opacity="0.5" stroke-width="3"/>
+  <!-- top shoulder connecting to collar -->
+  <path d="M188 186 L232 186 L246 224 C232 210 188 210 174 224 Z" fill="#d97e14"/>
+
+  <!-- glass shine -->
+  <ellipse cx="152" cy="272" rx="66" ry="88" fill="url(#shine)"/>
+  <ellipse cx="286" cy="404" rx="30" ry="44" fill="#ffffff" opacity="0.12"/>
+
+  <!-- label -->
+  <text x="210" y="342" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="34" letter-spacing="8" fill="#fff4e4">PERZON</text>
+  <text x="210" y="372" text-anchor="middle" font-family="Georgia, serif" font-size="12" letter-spacing="6" fill="#ffe0b8">PARFUM</text>
+</svg>

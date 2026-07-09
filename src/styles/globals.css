@@ -1,0 +1,206 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ── PERZON GALLERY — "Solé" warm light theme ── */
+:root {
+  --background: #fbf4ec;
+  --foreground: #221407;
+  --card: #fdf8f2;
+  --card-foreground: #221407;
+  --popover: #ffffff;
+  --popover-foreground: #221407;
+  --primary: #ea7317;
+  --primary-foreground: #ffffff;
+  --secondary: #f7e8d8;
+  --secondary-foreground: #221407;
+  --muted: #f3e7da;
+  --muted-foreground: #97826f;
+  --accent: #ea7317;
+  --accent-foreground: #ffffff;
+  --destructive: #c8401f;
+  --border: rgba(34, 20, 7, 0.08);
+  --input: rgba(34, 20, 7, 0.12);
+  --ring: #ea7317;
+  --radius: 0.875rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+@theme {
+  /* Brand extras — Solé palette */
+  --color-warm: #ea7317;
+  --color-cream: #fdf8f2;
+  --color-cocoa: #2a1708;
+  --color-peach: #f7c59b;
+  --color-amber: #d9822b;
+
+  /* Typography */
+  --font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display Variable", "Playfair Display", ui-serif,
+    Georgia, serif;
+  --font-heading: var(--font-display);
+
+  /* Radii */
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 28px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-premium: 24px;
+
+  /* Section rhythm */
+  --spacing-section: 120px;
+
+  /* Motion */
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.lenis {
+  height: auto;
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+}
+
+@layer components {
+  /* Soft cream surface card (replaces the old dark glass card) */
+  .glass-card {
+    background: var(--color-cream);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-premium);
+    box-shadow: 0 10px 30px -12px rgba(42, 23, 8, 0.12);
+  }
+
+  .label-caps {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+
+  .section-pad {
+    padding-block: clamp(72px, 10vw, var(--spacing-section));
+  }
+
+  /* Hero panel gradient — vivid orange like the Solé mock */
+  .hero-panel {
+    background:
+      radial-gradient(
+        120% 90% at 85% 10%,
+        rgba(255, 255, 255, 0.18),
+        transparent 55%
+      ),
+      linear-gradient(160deg, #f5941e 0%, #ee7c0a 45%, #e96c00 100%);
+  }
+
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation-duration: 42s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .marquee-track--ltr {
+    animation-name: marquee-ltr;
+  }
+
+  .marquee-track--rtl {
+    animation-name: marquee-rtl;
+  }
+
+  .marquee-row:hover .marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes marquee-ltr {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Scrollbar, warm and subtle */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #e4d2bd;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
